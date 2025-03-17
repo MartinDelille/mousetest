@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://bagy8pq1ieh3a"]
+
+[ext_resource type="Script" uid="uid://nt3hynopumge" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="LabelSettings" uid="uid://b0dfokd67c5i4" path="res://label_settings.tres" id="2_0xm2m"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_ig7tw")
+
+[node name="TypeLabel" type="Label" parent="."]
+offset_left = 349.0
+offset_top = 81.0
+offset_right = 404.0
+offset_bottom = 104.0
+text = "type"
+label_settings = ExtResource("2_0xm2m")
+
+[node name="PressedLabel" type="Label" parent="."]
+offset_left = 353.0
+offset_top = 166.0
+offset_right = 467.0
+offset_bottom = 208.0
+text = "pressed"
+label_settings = ExtResource("2_0xm2m")
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 104.0
+offset_top = 165.0
+offset_right = 206.0
+offset_bottom = 207.0
+text = "Pressed:"
+label_settings = ExtResource("2_0xm2m")
+
+[node name="Label6" type="Label" parent="."]
+offset_left = 102.0
+offset_top = 88.0
+offset_right = 204.0
+offset_bottom = 130.0
+text = "Type:"
+label_settings = ExtResource("2_0xm2m")
